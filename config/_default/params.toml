@@ -1,6 +1,6 @@
-logoText = "Zzo"
+logoText = "PyTips"
 logoType = "short" # long, short
-description = "The Zzo theme for Hugo example site."
+description = "Just a Python blog"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -40,14 +40,14 @@ talksGroupByDate = "2006"
 pubPaginate = 20
 
 # whoami
-myname = "zzossig"
-email = "zzossig@gmail.com"
-whoami = "Web Developer"
+myname = "Guilherme Maas"
+email = "guilherme.maas@gmail.com"
+whoami = "Dev/SysAdmin/Support"
 bioImageUrl = ""
 useGravatar = false
-location = "Seoul, Korea"
-organization = "Hugo"
-link = "https://zzossig.io/ko"
+location = "SC, Brazil"
+#organization = "Hugo"
+link = "https://guilhermemaas.github.io"
 
 # sidebar
 enableBio = true
@@ -143,16 +143,16 @@ commento = false
 [socialOptions]
   email = "mailto:your@email.com"
   phone = ""
-  facebook = "http://example.org/"
-  twitter = "http://example.org/"
-  github = "https://github.com/zzossig/hugo-theme-zzo"
+  facebook = "facebook.com/guilhermemaas/"
+  twitter = "https://twitter.com/guilhermemaas"
+  github = "https://github.com/guilhermemaas"
   stack-overflow = ""
   instagram = ""
   google-plus = ""
   youtube = ""
   medium = ""
   tumblr = ""
-  linkedin = ""
+  linkedin = "https://www.linkedin.com/in/guilhermemaas/"
   pinterest = ""
   stack-exchange = ""
   telegram = ""
@@ -171,6 +171,7 @@ commento = false
   dev-to = ""
   gitea = ""
   google-scholar = ""
+  twitch = "https://www.twitch.tv/guilhermemaas"
 
 [donationOptions]
   enable = false

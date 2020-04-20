@@ -1,10 +1,10 @@
 baseURL = "https://guilhermemaas.github.io"
-title = "Hugo Zzo Theme"
+title = "Guilherme Augusto Maas"
 theme = "zzo"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-hasCJKLanguage = true
+hasCJKLanguage = false
 
 summaryLength = 70
 buildFuture = true
@@ -19,7 +19,7 @@ enableGitInfo = false
 googleAnalytics = ""
 
 [markup]
-  [markup.goldmark]
+  [markup.goldmark ]
     [markup.goldmark.renderer]
       hardWraps = true
       unsafe = true
