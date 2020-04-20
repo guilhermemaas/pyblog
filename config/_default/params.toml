@@ -1,6 +1,6 @@
-logoText = "PyTips"
+logoText = "Python Tips"
 logoType = "short" # long, short
-description = "Just a Python blog"
+description = "Python Tips"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
