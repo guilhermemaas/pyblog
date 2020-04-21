@@ -1,6 +1,6 @@
-logoText = "Python Tips"
+logoText = ""
 logoType = "short" # long, short
-description = "Python Tips"
+description = "Guilherme Augusto Maas"
 custom_css = []
 custom_js = []
 useFaviconGenerator = true # https://www.favicon-generator.org/
@@ -42,7 +42,7 @@ pubPaginate = 20
 # whoami
 myname = "Guilherme Maas"
 email = "guilherme.maas@gmail.com"
-whoami = "Dev/SysAdmin/Support"
+whoami = "Dev/Support"
 bioImageUrl = ""
 useGravatar = false
 location = "SC, Brazil"
@@ -141,13 +141,13 @@ commento = false
   dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [socialOptions]
-  email = "mailto:your@email.com"
+  email = "mailto:guilherme.maas@gmail.com"
   phone = ""
   facebook = "facebook.com/guilhermemaas/"
   twitter = "https://twitter.com/guilhermemaas"
   github = "https://github.com/guilhermemaas"
   stack-overflow = ""
-  instagram = ""
+  instagram = "instagram.com/guilherme.maas/"
   google-plus = ""
   youtube = ""
   medium = ""

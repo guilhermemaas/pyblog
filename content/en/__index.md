@@ -6,9 +6,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - Python Tips
+      - Um Blog
     subtitle:
-      - Apenas um blog sobre Python e outras coisas de TI
+      - Sopre Python e outras coisas de TI
     titleColor: 
     titleShadow: true
     titleFontSize: 44
