@@ -104,7 +104,7 @@ Mais detalhes sobre o pacman:
 {{< /codes >}}
 
 
-## Exemplo de algumas janelas criadas com Msys2 e Tmux
+## Exemplo de algumas sessões criadas com Msys2 e Tmux
 
 {{< img src="img/tmux4.jpg" position="center" >}}
 
