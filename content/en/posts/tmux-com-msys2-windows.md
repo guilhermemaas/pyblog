@@ -1,7 +1,7 @@
 ---
 title: "Tmux no Windows com Msys2"
 date: 2020-11-22T19:39:21-03:00
-description: Rodando o multiplexador de terminais Tmux no Windows com Msys2.
+description: Rodando o multiplexador de terminais Tmux no Windows com Msys2
 draft: false
 hideToc: true
 enableToc: true
