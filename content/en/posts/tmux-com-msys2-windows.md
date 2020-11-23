@@ -106,7 +106,7 @@ Mais detalhes sobre o pacman:
 
 ## Exemplo de algumas janelas criadas com Msys2 e Tmux
 
-{{< img src="img/tmux3.jpg" position="center" >}}
+{{< img src="img/tmux4.jpg" position="center" >}}
 
 
 ## Até logo!  :heart:
