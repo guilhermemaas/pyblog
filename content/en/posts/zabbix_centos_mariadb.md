@@ -150,7 +150,7 @@ Os passos abaixo podem ser executados nos três servidores. Tratam-se de configu
 {{< /codes >}}
 
 
-## 🚨 Servidor do Zabbix Backend(Zabbix Server)
+## 🚨 Servidor do Zabbix Back-end(Zabbix Server)
 
 {{< codes bash >}}
   {{< code >}}
@@ -223,7 +223,7 @@ A partir deste momento você já pode acessar o Zabbix Web:
 http://192.168.0.119/zabbix/
 {{< /alert >}}
 
-Você será direcionado para a URL a seguinte URL:
+Você será direcionado para seguinte URL:
 
 {{< alert theme="info" dir="ltr" >}}
 http://192.168.0.119/zabbix/setup.php
