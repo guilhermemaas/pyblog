@@ -42,7 +42,7 @@ pubPaginate = 20
 # whoami
 myname = "Guilherme Maas"
 email = "guilherme.maas@gmail.com"
-whoami = "Dev/Support"
+whoami = "Dev/Ops"
 bioImageUrl = ""
 useGravatar = false
 location = "SC, Brazil"
@@ -143,11 +143,11 @@ commento = false
 [socialOptions]
   email = "mailto:guilherme.maas@gmail.com"
   phone = ""
-  facebook = "facebook.com/guilhermemaas/"
+  facebook = ""
   twitter = "https://twitter.com/guilhermemaas"
   github = "https://github.com/guilhermemaas"
   stack-overflow = ""
-  instagram = "instagram.com/guilherme.maas/"
+  instagram = "https://www.instagram.com/guilherme.maas/"
   google-plus = ""
   youtube = ""
   medium = ""
