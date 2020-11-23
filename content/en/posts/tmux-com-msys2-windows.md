@@ -1,7 +1,7 @@
 ---
 title: "Tmux no Windows com Msys2"
 date: 2020-11-22T19:39:21-03:00
-description: Rodando o multiplexador de terminais Tmux no Windows com Msys2.
+description: Rodando o multiplexador de terminais Tmux no Windows com Msys2
 draft: false
 hideToc: true
 enableToc: true
@@ -28,14 +28,14 @@ Tmux: É um multiplexador de terminal de código aberto para sistemas operaciona
 Msys2: Baseado no Cygwin e Mingw-w64, nos permite rodar aplicações do projeto GNU, Linux ao mesmo tempo que interagimos com o própio Windows. No geral, nos permite rodar aplicações Linux no Windows, assim como o WSL(Windows Subsystem for Linux). Seus pacotes são distribuídos através do Pacman como no Arch Linux.
 
 
-## :penguin: Instalação e Configuração:
+## :penguin: Instalação e Configuração
 
 Baixe a versão mais atual do Msys2 disponível em: https://repo.msys2.org/distrib/x86_64/
 
 A instalação é next, next, finish. Então não há segredo. Mais detalhes em: https://www.msys2.org/#installation
 
 
-## Baixe o Tmux:
+## Baixe o Tmux
 
 Para baixar o Tmux basta rodar o seguinte comando e aguardar:
 
@@ -63,9 +63,9 @@ Mais detalhes sobre o pacman:
 {{< /codes >}}
 
 
-## Alguns atalhos interessantes do Tmux:
+## Alguns atalhos interessantes do Tmux
 
-| Atalho                    | Description                                                |
+| Atalho                    | Descrição                                                  |
 |---------------------------|------------------------------------------------------------|
 | ctrl+b                    | Inicia um comando                                          |
 | ctrl+b+c                  | Cria uma nova janela                                       |
@@ -79,10 +79,11 @@ Mais detalhes sobre o pacman:
 | ctrl+b+setas              | Utilize Ctrl+b e as setas para navegar entre os painéis    |
 | ctrl pressionado+b+setas  | Para aumentar ou diminuir o tamanho do painel              |
 | ctrl+b+o                  | Rotaciona entre as janelas                                 |
+| ctrl+b+x                  | Permite fechar o painel                                    |
 | ctrl+b+d                  | Sair de uma sessão sem fechar, irá permanecer em BG        |
 
 
-## Alguns comandos para gerenciamento do Tmux:
+## Alguns comandos para gerenciamento do Tmux
 
 {{< codes bash >}}
   {{< code >}}
@@ -103,9 +104,9 @@ Mais detalhes sobre o pacman:
 {{< /codes >}}
 
 
-## Exemplo de algumas janelas criadas com Msys2 e Tmux:
+## Exemplo de algumas janelas criadas com Msys2 e Tmux
 
-{{< img src="img/tmux2.png" position="center" >}}
+{{< img src="img/tmux3.jpg" position="center" >}}
 
 
 ## Até logo!  :heart:
