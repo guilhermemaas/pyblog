@@ -6,7 +6,7 @@ draft: false
 hideToc: true
 enableToc: true
 enableTocContent: false
-tagas:
+tags:
 - terminal
 - linux
 - tmux
