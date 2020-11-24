@@ -22,7 +22,7 @@ image: images/icones/zabbix.jpg
 
 ## 
 
-Esse é um guia rápido, prático e direto sobre como instalar o Zabbix em três camadas utilizando CentOS como sistema operacional, PostgreSQL como SGDB e Apache para servir o front-end. Neste caso possuo três máquinas virtuais distintas no VirtualBox.
+Esse é um guia rápido, prático e direto sobre como instalar o Zabbix em três camadas utilizando CentOS como sistema operacional, MariaDB como SGDB e Apache para servir o front-end. Neste caso possuo três máquinas virtuais distintas no VirtualBox.
 
 Esse passo a passo não aborda a instalação do VirtualBox. Assim sendo é necessário que se tenha o entendimento de como instalar o sistema operacional nas máquinas virtuais, como configurar a rede, como se conectar via ssh e os comandos básicos utilizados no terminal.
 
