@@ -1,7 +1,7 @@
 ---
 title: "50 containers Nginx com Docker Swarm"
 date: 2020-12-26T18:50:58-03:00
-description: Neste breve tutorial iremos subir um cluster Swarm com algums nodes e escalar um serviço com Nginx para 50 containers
+description: Neste breve tutorial iremos subir um cluster Swarm com alguns nodes e escalar um serviço com Nginx para 50 containers
 draft: false
 hideToc: true
 enableToc: true
