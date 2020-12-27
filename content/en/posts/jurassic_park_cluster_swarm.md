@@ -207,7 +207,7 @@ Dica: Acompanhe o log do serviço(O log em tempo real de todos os containers):
 {{< codes bash >}}
   {{< code >}}
   ```bash
-  
+  docker service logs -f nginx-jurassic-park
   ```
   {{< /code >}}
 {{< /codes >}}
