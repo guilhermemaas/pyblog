@@ -20,7 +20,6 @@ image: images/icones/Swarm_Nginx.jpg
 ## 
 
 Neste breve tutorial irei demonstrar como:
-
 - Iniciar um cluster Swarm.
 - Adicionar hosts ao cluster.
 - Criar uma máquina virtual em uma linha de comando com o driver para Virtual Box e Docker Machine.
@@ -30,7 +29,7 @@ Requisitos: Já ter dado uma brincada com Docker, ou não.
 
 
 {{< notice info "This is a success type of notice" >}}
-Irei subir seis nodes,nós no cluster:
+Irei subir seis nós no cluster:
 Node 1 - isla-nublar - Node principal (Manager).
 Node 2 - isla-sorna.
 Node 3 - isla-muerta.
@@ -46,7 +45,7 @@ Obs.: Sim, eu dei o nome das ilhas do Jurassic Park para os hosts. Eu gosto de n
 
 ## :whale: docker swarm init. Iniciando o cluster!
 
-Para montar o ambiente eu vou utilizar alguns hosts virtuais utilizando o VirtualBox da Oracle. Vai do seu gosto nesse caso. O interessante é que o Docker tem por padrão um driver para criar máquinas virtuais para nos servir como servidores de containers. "Docker Machines". Abaixo irei demonstrar. Mas inicialmente, subi o node 1 até o 3 em três máquinas com sistema operacional CentOS 8. E os outros três nodes irei subir utilizando o docker-machine.
+Para montar o ambiente eu vou utilizar alguns hosts virtuais utilizando o VirtualBox da Oracle. Vai do seu gosto nesse caso. O interessante é que o Docker tem por padrão um driver para criar máquinas virtuais, ou seja, servidores de containers, chamados de "Docker Machines". Abaixo irei demonstrar. Mas inicialmente, subi o node 1 até o 3 em três máquinas com sistema operacional CentOS 8. E os outros três nodes irei subir utilizando o docker-machine.
 
 Obs.: Para facilitar, você pode subir apenas o Node 1 que trataremos como "Principal", ou seja, o "Manager" do cluster, no CentOS e o restante subir de forma "Automágica" com docker-machine.
 
@@ -94,7 +93,7 @@ Para instalação do binário do Docker Machine, execute o script abaixo:
   {{< /code >}}
 {{< /codes >}}
 
-Como citado lá em cima, eu já tenho 3 máquinas com CentOS, que são dos nodes 1 até 3. Então nesse caso vou criar 3 novas máquinas virtuais:
+Como citado lá em cima, eu já tenho 3 máquinas com CentOS, que são dos nodes 1 até 3. Então nesse caso vou criar 3 novas máquinas virtuais utilizando o driver "virtualbox". Ou seja, ele vou criar três máquinas utilizando a minha máquina local:
 {{< codes bash >}}
   {{< code >}}
   ```bash
@@ -144,6 +143,10 @@ Após isso podemos listar todos os nós do cluster com o comando "docker node ls
 
 {{< img src="img/docker_node_ls.png" position="center" >}}
 ## 
+{{< notice info "This is a success type of notice" >}}
+Importante: existem muitos drivers para o docker-machine, inclusive para Clouds(Subir em uma ec2 por exemplo) e VMware.
+{{< /notice >}}
+
 
 ## :whale: Criando um serviço no cluster:
 
