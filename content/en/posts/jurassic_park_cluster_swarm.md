@@ -1,7 +1,7 @@
 ---
-title: "50 containers Nginx com Docker Swarm"
+title: "50 réplicas Nginx com Docker Swarm"
 date: 2020-12-26T18:50:58-03:00
-description: Neste breve tutorial iremos subir um cluster Swarm com alguns nodes e escalar um serviço com Nginx para 50 containers
+description: Neste hands-on vamos subir um cluster Swarm com alguns e escalar um serviço com Nginx para 50 réplicas
 draft: false
 hideToc: true
 enableToc: true
@@ -13,10 +13,10 @@ tags:
 categories:
 - docker
 - containers
-image: images/icones/swarm.jpg
+image: images/icones/Swarm_Nginx.jpg
 ---
 
-{{< img src="img/jurassic_park_islands.png" position="center" >}}
+{{< img src="img/swarm.jpg" position="center" >}}
 ## 
 
 Neste breve tutorial irei demonstrar como:
@@ -24,7 +24,7 @@ Neste breve tutorial irei demonstrar como:
 - Iniciar um cluster Swarm.
 - Adicionar hosts ao cluster.
 - Criar uma máquina virtual em uma linha de comando com o driver para Virtual Box e Docker Machine.
-- Criar um serviço escalando 50 containers de Nginx distribuídos entre os nós do cluster.
+- Criar um serviço escalando 50 réplicas(containers) de Nginx distribuídos entre os nós do cluster.
 
 Requisitos: Já ter dado uma brincada com Docker, ou não.
 
@@ -41,8 +41,10 @@ Node 6 - isla-mataceros.
 
 Obs.: Sim, eu dei o nome das ilhas do Jurassic Park para os hosts. Eu gosto de nomear as coisas que vou fazendo para estudar com nomes de ficção. Então se acostume a ver muita coisa sobre Jurassic Park ou Star Wars por aqui.
 
+{{< img src="img/jurassic_park_islands.png" position="center" >}}
 
-## :whale: Iniciando o Cluster:
+
+## :whale: docker swarm init. Iniciando o cluster!
 
 Para montar o ambiente eu vou utilizar alguns hosts virtuais utilizando o VirtualBox da Oracle. Vai do seu gosto nesse caso. O interessante é que o Docker tem por padrão um driver para criar máquinas virtuais para nos servir como servidores de containers. "Docker Machines". Abaixo irei demonstrar. Mas inicialmente, subi o node 1 até o 3 em três máquinas com sistema operacional CentOS 8. E os outros três nodes irei subir utilizando o docker-machine.
 
@@ -143,7 +145,7 @@ Após isso podemos listar todos os nós do cluster com o comando "docker node ls
 {{< img src="img/docker_node_ls.png" position="center" >}}
 ## 
 
-## :while: Criando um serviço no cluster:
+## :whale: Criando um serviço no cluster:
 
 Para realizar o Deploy de uma imagem Docker precisamos criar um serviço. Frequentemente o serviço é uma imagem de um microserviço em um ambiente distribuido. Nesse caso vamos criar um serviço utilizando a Imagem do Nginx.
 
@@ -190,7 +192,7 @@ Para verificar a distribuição dos containers nos nós basta executar o seguint
 {{< /codes >}}
 
 
-## :whale: Agora vamos a parte divertida! Escalar para 50 containers Nginx:
+## :whale: Agora vamos a parte divertida! Escalar para 50 réplicas Nginx:
 
 Primeiro vamos testar uma requisição em qualquer IP do cluster na porta 8181 para verificar se o Nginx responde:
 
