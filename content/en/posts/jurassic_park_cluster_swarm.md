@@ -1,7 +1,7 @@
 ---
 title: "50 réplicas Nginx com Docker Swarm"
 date: 2020-12-26T18:50:58-03:00
-description: Neste hands-on vamos subir um cluster Swarm com alguns e escalar um serviço com Nginx para 50 réplicas
+description: Neste hands-on vamos subir um cluster Swarm com alguns nodes e escalar um serviço com Nginx para 50 réplicas
 draft: false
 hideToc: true
 enableToc: true
